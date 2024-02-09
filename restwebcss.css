@@ -1,0 +1,90 @@
+.body{
+    background-color: black;
+}
+.poster{
+    width=100%;
+    text-transform: uppercase;
+    margin-top:50px;
+    margin-left:-2%;
+    text-align: center;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.postername{
+    font-size:75px;
+    background-color:darkkhaki;
+}
+.logo{
+    margin-left: -76%;
+
+}
+
+
+.first{
+    font-size:large;
+    /* border: 1px solid azure; */
+    /* background-color:white; */
+    color: black;
+    margin-top:-6%; 
+   margin-left:-39%;
+   
+}
+.Aboutus{
+    width=50%;
+    margin-left:0%;
+    
+    text-align: center;
+    font-family:'Prata', serif;
+    font-weight:bolder
+}
+.contact-link{
+   margin-left: 88%;
+   color: blue;
+
+   font-weight:1000;
+}
+.contact-link:hover{
+     font-size: 19px;
+    color: blueviolet;
+}
+.directions-link{
+    color: blue;
+    font-weight:1000;
+    
+}
+.directions-link:hover{
+    font-size: 19px;
+    color: blueviolet;
+}
+.logoimag{
+    margin-left:42%;
+    height: 200px;
+}
+
+.vegpara{
+    
+    margin-left:49%;
+}
+.nonveg{
+    font-family: 'Bakbak One', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+.veg{
+    font-family: 'Bakbak One', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+.letsorder{
+    font-size:xx-large;
+    text-align: center;
+    background-color:rgba(199, 199, 19, 0.566);
+    color:blue
+    border: 2px solid white;    
+}
+.letsorder:hover{
+    font-size: 40px;
+}
+.foot{
+    text-align: center;
+}

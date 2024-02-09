@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VEG AND NON VEG BUFFETS</title>
+  <style>
+    label {
+      display: block;
+      margin-bottom: 10px;
+
+    }
+    head{
+        font-size: larger;
+        font-weight: 800;
+    }
+  </style>
+</head>
+<body background="newback.png">
+
+  <h1 class="head">HOW MANY VEG AND NON-VEG BUFFET</h1>
+
+  <form id="orderForm">
+    <label for="vegbuff">Number of VEG Buffets:</label>
+    <input type="number" id="vegbuff" name="vegbuff" value="0" min="0">
+
+    <label for="nonvegbuff">Number of NON-VEG Buffets:</label>
+    <input type="number" id="nonvegbuff" name="nonvegbuff" value="0" min="0">
+
+    <button type="button" onclick="calculateTotal()">Calculate Total</button>
+
+    <h3>Total Amount to be Paid: <span id="totalAmount">0</span></h3>
+  </form>
+
+  <script>
+    function calculateTotal() {
+      var vegbuff = parseInt(document.getElementById('vegbuff').value);
+      var nonvegbuff= parseInt(document.getElementById('nonvegbuff').value);
+
+      var vegprice = 300; 
+      var nonvegPrice =500; 
+
+      var totalAmount = (vegbuff *vegprice) + (nonvegbuff * nonvegPrice);
+
+      document.getElementById('totalAmount').innerText = totalAmount;
+    }
+  </script>
+
+</body>
+</html>
